@@ -430,8 +430,6 @@ public class DeviceClass {
                 return path + pogoClass.getName() + ".cpp";
             case "python":
             	return path + pogoClass.getName() + ".py";
-            case "pythonhl":
-            	return path + pogoClass.getName() + ".py";
             default:
                 path += "org" + separator + "tango" + separator +
                         pogoClass.getName().toLowerCase() + separator;
